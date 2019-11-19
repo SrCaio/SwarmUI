@@ -7,6 +7,9 @@ robots each 2.6 cm in diameter, a radio base-station, a highspeed DLP structured
 a software framework for application development and control. We illustrate the potential of tabletop swarm user interfaces
 through a set of application scenarios developed with Zooids, and discuss general design considerations unique to swarm user interfaces.
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/ZVdAfDMP3m0/0.jpg)](http://www.youtube.com/watch?v=ZVdAfDMP3m0 "Zooids: Building Blocks for Swarm User Interfaces")
+
+
 ## Hardware
 <p align="center">
 <img src="Images/exploded.PNG" alt="exploded" width="400">
@@ -15,8 +18,8 @@ through a set of application scenarios developed with Zooids, and discuss genera
 Zooids are small custom-made robots as shown above; their dimensions are 26 mm in diameter, 21 mm in height
 and they weight about 12 g. Each robot is powered by a 100 mAh LiPo battery and uses motor driven wheels. It contains a flexible elctrode for capacitive touch sensing. It communicates with the main computer through a NRF24L01+ chip. 
 
-###Tracking
-OUr system uses a projector-based tracking system for robot position tracking as shwon below. Using a high frame rate (3000Hz) projector (DLP LightCrafter) from Texas Instruments Inc., a sequence of gray-coded patterns are projected onto a flat surface. Then, the photodiodes on the robot independently decodes into a location within the projected area. 
+### Tracking
+Our system uses a projector-based tracking system for robot position tracking as shown below. Using a high frame rate (3000Hz) projector (DLP LightCrafter) from Texas Instruments Inc., a sequence of gray-coded patterns are projected onto a flat surface. Then, the photodiodes on the robot independently decodes into a location within the projected area. 
 The instruction for setting up this projector-based tracking system is included in the repository. 
 
 ## Software
@@ -48,3 +51,5 @@ It was partially funded by the Région Ile de France, DIM ISC-PIF. We would also
 <p align="center">
 <img src="Images/logos.png" alt="logos" width="700">
 </p>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
